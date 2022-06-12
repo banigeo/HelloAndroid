@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="name_hint">Please enter your name</string>
+    <string name="hello_button">Say Hello</string>
+    <string name="hi_button_label">SAY HELLO</string>
+    <string name="about">About Hello, Android!</string>
+    <string name="go_to_developer_android_com">Go to developer.android.com</string>
+    <string name="camera">native camera</string>
+    <string name="title_activity_main_drawer">MainActivityDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">DSD Mobile</string>
+    <string name="nav_header_subtitle">george.banica@s.unibuc.ro</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="element_text">Element</string>
+    <string name="sample_show_log">show log</string>
+    <string name="linear_layout_manager">Linear Layout Manager</string>
+    <string name="grid_layout_manager">Grid Layout Manager</string>
+</resources>
