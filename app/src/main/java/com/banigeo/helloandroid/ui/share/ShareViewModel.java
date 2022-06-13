@@ -1,16 +1,16 @@
-package com.banigeo.helloandroid.ui.slideshow;
+package com.banigeo.helloandroid.ui.share;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class ShareViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public ShareViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Browser App");
+        mText.setValue("Share fragment");
     }
 
     public LiveData<String> getText() {

@@ -1,4 +1,4 @@
-package com.banigeo.helloandroid.ui.gallery;
+package com.banigeo.helloandroid.ui.share;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.banigeo.helloandroid.databinding.FragmentGalleryBinding;
 
-public class GalleryFragment extends Fragment {
+public class ShareFragment extends Fragment {
 
     private FragmentGalleryBinding binding;
 
@@ -28,14 +28,14 @@ public class GalleryFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        ShareViewModel shareViewModel =
+                new ViewModelProvider(this).get(ShareViewModel.class);
 
         binding = FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        shareViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         goToDevSite();
         return root;
     }

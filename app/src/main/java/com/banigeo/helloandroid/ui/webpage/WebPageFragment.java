@@ -1,4 +1,4 @@
-package com.banigeo.helloandroid.ui.slideshow;
+package com.banigeo.helloandroid.ui.webpage;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.banigeo.helloandroid.databinding.FragmentSlideshowBinding;
 
-public class SlideshowFragment extends Fragment {
+public class WebPageFragment extends Fragment {
 
     private FragmentSlideshowBinding binding;
 
@@ -25,14 +25,14 @@ public class SlideshowFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        WebPageModel webPageModel =
+                new ViewModelProvider(this).get(WebPageModel.class);
 
         binding = FragmentSlideshowBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        webPageModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         goToDevSite();
         return root;
     }

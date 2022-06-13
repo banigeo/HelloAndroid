@@ -1,4 +1,4 @@
-package com.banigeo.helloandroid.ui.home;
+package com.banigeo.helloandroid.ui.view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,27 +6,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.SearchView;
-import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.banigeo.helloandroid.CustomAdapter;
 import com.banigeo.helloandroid.R;
-import com.banigeo.helloandroid.RecyclerViewFragment;
-import com.banigeo.helloandroid.databinding.FragmentHomeBinding;
-import com.google.android.material.snackbar.Snackbar;
 
 import org.apache.commons.lang3.RandomStringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeFragment extends Fragment {
+public class RecyclerViewFragment extends Fragment {
 
     private static final String TAG = "RecyclerViewFragment";
     private static final String KEY_LAYOUT_MANAGER = "layoutManager";
