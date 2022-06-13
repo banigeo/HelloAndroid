@@ -19,7 +19,6 @@ public class GalleryFragment extends Fragment {
     private FragmentGalleryBinding binding;
 
     private void goToDevSite() {
-
         Intent shareIntent = new Intent();
         shareIntent.setAction(Intent.ACTION_SEND);
         shareIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse("https://fmi.unibuc.ro/wp-content/uploads/2020/05/Facultatea-de-Matematica-4-Copy-1500x500.jpg"));

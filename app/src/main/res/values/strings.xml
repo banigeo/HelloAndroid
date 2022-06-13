@@ -12,11 +12,11 @@
     <string name="nav_header_title">DSD Mobile</string>
     <string name="nav_header_subtitle">george.banica@s.unibuc.ro</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">About</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home">RecyclerView</string>
+    <string name="menu_gallery">AndroidShare</string>
+    <string name="menu_slideshow">WebPage</string>
     <string name="element_text">Element</string>
     <string name="sample_show_log">show log</string>
     <string name="linear_layout_manager">Linear Layout Manager</string>
